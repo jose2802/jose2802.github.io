@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	 <title>Practicas</title>
+  	 <meta charset="utf-8"/>
+      <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+      <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+      <script>
+           angular
+            .module('firstApplication', ['ngMaterial'])
+      </script>
+  </head>
+
+  <body ng-app="firstApplication" style="background-color:purple;">
+      <md-content  layout="column" layout-align="center center" style="background-color:lightblue;">
+       <div style="margin:1%;">
+         <p class="md-headline" style="color:black; font-weight:bold; margin:0;">Proyectos</p>
+       </div>
+       <div style="margin-top:0%; margin-bottom:1%;">
+         <p  style="color:black; margin:0; font-size:20px">Jose Manuel Alarcon</p>
+       </div>
+      </md-content>
+
+      <md-content layout="column"  style="background-color:purple; top:10%;">
+       <div layout-gt-xs="row" layout="column"  layout-align="center center">
+         <div>
+            <md-button class="btn1" href="eure.html"><p style="margin:0; color:white; font-weight:bold;">Centro Eure</p></md-button>
+         </div>
+         <div>
+            <md-button class="btn1" href="cubo.html"><p style="margin:0; color:white; font-weight:bold;">Cubo Negocios</p></md-button>
+         </div>
+        <!--  <div>
+            <md-button class="btn1" href="shipgame/index.html"><p style="margin:0; color:#3b3a30; font-weight:bold;">Ship Game</p></md-button>
+         </div> -->
+         <div>
+            <md-button class="btn1" href="https://github.com/jose2802/jose2802.github.io"><p style="margin:0; color:white; font-weight:bold;">GitHub</p></md-button>
+         </div>
+       </div>
+      </md-content>
+
+  </body>
+
+  <style>
+    .btn1{
+      background-color: black;
+    }
+  </style>
